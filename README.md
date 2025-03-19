@@ -15,9 +15,10 @@ bqb-server/
 ├── demo_api.ipynb                       
 ├── demo_preview.ipynb               # 用于演示
 ├── gme_inference.py    
-├── main.py                                              
-└── README.md
-├── requirements.txt
+├── main.py  
+├── README.md                                           
+└── requirements.txt
+ 
 ```
 
 ## 安装与运行
