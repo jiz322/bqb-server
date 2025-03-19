@@ -1,6 +1,7 @@
 # bqb-server
 
 > 一个用于检索表情包的服务器，基于 [zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB) 中的表情包数据，结合阿里巴巴 NLP 的 GME-Qwen2VL 系列多模态大模型进行文本与图像向量检索。
+> [表情包检索直达链接 https://aiban.fun/bqb](https://aiban.fun/bqb) 
 
 ```bash
 bqb-server/
@@ -11,11 +12,12 @@ bqb-server/
 │   └── 2b_fused_embeddings_dict.pt  
 │   └── 7b_embeddings_dict.pt        
 │   └── 7b_fused_embeddings_dict.pt  
+├── image/ 
 ├── config.yaml  
 ├── demo_api.ipynb                       
 ├── demo_preview.ipynb               # 用于演示
 ├── gme_inference.py    
-├── main.py  
+├── main.py                          # 启动
 ├── README.md                                           
 └── requirements.txt
  
