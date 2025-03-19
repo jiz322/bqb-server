@@ -4,7 +4,7 @@
 
 > [表情包检索直达链接 https://aiban.fun/bqb](https://aiban.fun/bqb) 
 
-![banban](./image/emoji3.png)
+![banban](./bqb/是喵星人啦00033-按钮爆炸猫.gif)
 
 ```bash
 bqb-server/
