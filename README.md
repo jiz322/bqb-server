@@ -4,6 +4,8 @@
 
 > [表情包检索直达链接 https://aiban.fun/bqb](https://aiban.fun/bqb) 
 
+![banban](./image/emoji.png)
+
 ```bash
 bqb-server/
 ├── bqb/                             # 表情包图片文件夹（来自 ChineseBQB）  
