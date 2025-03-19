@@ -67,7 +67,6 @@ def find_top_k_similar_text(
 # Request and response models for FastAPI
 class SimilarityRequest(BaseModel):
     text: str
-    instruction: str = "Find a expressive image that matches the given text."
     k: int = 5
     similarity_type: str = "cosine"
 
@@ -76,12 +75,13 @@ class SimilarityResponse(BaseModel):
 
 app = FastAPI()
 
-@app.post("/similar", response_model=SimilarityResponse)
+@app.post("/search_k", response_model=SimilarityResponse)
 def get_similar_images(req: SimilarityRequest):
     try:
         # Prepare the text for the model
         query = f'given text: "{req.text}"'
-        text_embeddings = gme.get_text_embeddings(texts=[query], instruction=req.instruction)
+        instruction = "Find a expressive image that matches the given text."
+        text_embeddings = gme.get_text_embeddings(texts=[query], instruction=instruction)
         top_k_results = find_top_k_similar_text(
             text_embedding=text_embeddings, 
             embeddings_dict=embeddings_dict, 
