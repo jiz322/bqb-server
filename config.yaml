@@ -1,3 +1,3 @@
 gme_path: 'G:\LLMs\gme-Qwen2-VL-7B-Instruct'
-embedding_dict_path: './embedding_dicts/27b_fused_embeddings_dict.pt'
+embedding_dict_path: './embedding_dicts/7b_fused_embeddings_dict.pt'
 device: 'cpu'
