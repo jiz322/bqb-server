@@ -3,7 +3,7 @@
 <table>
 <tr>
   <td>
-    <img src="./image/emoji3.png" alt="banban" width="900">
+    <img src="./image/emoji3.png" alt="banban" width="1000">
   </td>
   <td>
 
