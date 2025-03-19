@@ -5,7 +5,7 @@
   <tr style="border: none; margin: 0; padding: 0;">
     <!-- Left cell (image) -->
     <td style="border: none; margin: 0; padding: 0; vertical-align: top;">
-      <img src="./image/emoji.png" alt="banban" width="80" style="display: block; margin: 0; padding: 0;" />
+      <img src="./image/emoji.png" alt="banban" width="680" style="display: block; margin: 0; padding: 0;" />
     </td>
     <!-- Right cell (text) -->
     <td style="border: none; margin: 0; padding: 0; vertical-align: top;">
