@@ -29,7 +29,7 @@ bqb-server/
 
 1. **克隆项目代码：**
 ```bash
-git clone https://github.com/yourusername/bqb-server.git
+git clone https://github.com/jiz322/bqb-server.git
 cd bqb-server
 ```
 
