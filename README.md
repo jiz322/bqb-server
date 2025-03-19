@@ -23,8 +23,9 @@ bqb-server/
 ## 安装与运行
 
 0. **下载模型文件：**
-[zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB)
-[zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB)
+无需显卡，32B以上DRAM用7b，不然用2b
+[7b](https://huggingface.co/Alibaba-NLP/gme-Qwen2-VL-7B-InstructB)
+[2b](https://huggingface.co/Alibaba-NLP/gme-Qwen2-VL-2B-Instruct)
 
 1. **克隆项目代码：**
 ```bash
