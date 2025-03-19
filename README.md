@@ -1,10 +1,19 @@
 # bqb-server
 
-> 一个用于检索表情包的服务器，基于 [zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB) 中的表情包数据，结合阿里巴巴 NLP 的 GME-Qwen2VL 系列多模态大模型进行文本与图像向量检索。
+<table>
+<tr>
+  <td>
+    <img src="./image/emoji.png" alt="banban" width="80">
+  </td>
+  <td>
 
-> [表情包检索直达链接 https://aiban.fun/bqb](https://aiban.fun/bqb) 
+  > 一个用于检索表情包的服务器，基于 [zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB) 中的表情包数据，结合阿里巴巴 NLP 的 GME-Qwen2VL 系列多模态大模型进行文本与图像向量检索。  
 
-![banban](./image/emoji.png)
+  > [表情包检索直达链接 https://aiban.fun/bqb](https://aiban.fun/bqb)
+
+  </td>
+</tr>
+</table>
 
 ```bash
 bqb-server/
