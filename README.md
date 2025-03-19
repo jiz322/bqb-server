@@ -1,21 +1,19 @@
 # bqb-server
 
-<!-- Use an HTML table with "border: none" and no padding/margins. -->
-<table style="border: none; border-collapse: collapse; margin: 0; padding: 0;">
-  <tr style="border: none; margin: 0; padding: 0;">
-    <!-- Left cell (image) -->
-    <td style="border: none; margin: 0; padding: 0; vertical-align: top;">
-      <img src="./image/emoji.png" alt="banban" width="680" style="display: block; margin: 0; padding: 0;" />
-    </td>
-    <!-- Right cell (text) -->
-    <td style="border: none; margin: 0; padding: 0; vertical-align: top;">
-      > 一个用于检索表情包的服务器，基于 [zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB) 中的表情包数据，结合阿里巴巴 NLP 的 GME-Qwen2VL 系列多模态大模型进行文本与图像向量检索。  
-      >
-      > [表情包检索直达链接 https://aiban.fun/bqb](https://aiban.fun/bqb)
-    </td>
-  </tr>
-</table>
+<table>
+<tr>
+  <td>
+    <img src="./image/emoji.png" alt="banban" width="600">
+  </td>
+  <td>
 
+  > 一个用于检索表情包的服务器，基于 [zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB) 中的表情包数据，结合阿里巴巴 NLP 的 GME-Qwen2VL 系列多模态大模型进行文本与图像向量检索。  
+
+  > [表情包检索直达链接 https://aiban.fun/bqb](https://aiban.fun/bqb)
+
+  </td>
+</tr>
+</table>
 
 ```bash
 bqb-server/
