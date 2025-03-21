@@ -8,7 +8,7 @@
 
 
 ```bash
-bqb-server/
+memerag/
 ├── bqb/                             # 表情包图片文件夹（来自 ChineseBQB）  
 │── bqb-preview/                     # resized bqb
 ├── embedding_dicts/                 # GME模型给出的向量 与bqb中文件一一对应
@@ -36,8 +36,8 @@ bqb-server/
 
 1. **克隆项目代码：**
 ```bash
-git clone https://github.com/jiz322/bqb-server.git
-cd bqb-server
+git clone https://github.com/jiz322/memerag.git
+cd memerag
 ```
 
 2. **创建并激活虚拟环境（可选）：**
